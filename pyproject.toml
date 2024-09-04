@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "03-chat-cv"
+version = "0.1.0"
+description = ""
+authors = ["akira-fukue <felipe.fukue@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+openai = "^1.43.0"
+pymupdf = "^1.24.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
